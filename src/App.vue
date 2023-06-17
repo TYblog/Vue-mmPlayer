@@ -46,10 +46,10 @@ export default {
     let titleTime
     document.addEventListener('visibilitychange', function () {
       if (document.hidden) {
-        document.title = '死鬼去哪里了！'
+        document.title = 'w(ﾟДﾟ)w不要走再看看嘛~'
         clearTimeout(titleTime)
       } else {
-        document.title = '(つェ⊂)咦!又好了!'
+        document.title = '(✿◡‿◡)欢迎回来~喵帕斯先生'
         titleTime = setTimeout(function () {
           document.title = OriginTitile
         }, 2000)
